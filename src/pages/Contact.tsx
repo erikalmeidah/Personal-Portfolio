@@ -109,8 +109,8 @@ const Contact: React.FC = () => {
       <div className="grid grid-cols-1 gap-10 xl:hidden">
         <div>
           <p className="mb-8 text-lg">
-            I'm interested in any opportunities to develop new and interesting technologies, especially ambitious or large
-            projects. However, if you have other requests or questions, don't hesitate to contact me.
+            I'm always happy to talk about new and interesting technologies, especially ambitious or large projects. If you
+            have any requests or questions, don't hesitate to contact me.
           </p>
           <div className="space-y-6 mb-10">
             <div className="flex items-center gap-4">
@@ -186,8 +186,8 @@ const Contact: React.FC = () => {
       <div className="hidden xl:grid xl:grid-cols-2 gap-10">
         <div>
           <p className="mb-8 text-lg">
-            I'm interested in any opportunities to develop new and interesting technologies, especially ambitious or large
-            projects. However, if you have other requests or questions, don't hesitate to contact me.
+            I'm always happy to talk about new and interesting technologies, especially ambitious or large projects. If you
+            have any requests or questions, don't hesitate to contact me.
           </p>
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="hidden">
