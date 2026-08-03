@@ -24,7 +24,7 @@ const Resume: React.FC = () => {
           <PrinterIcon size={18} /> Print / PDF
         </button>
       </div>
-      <div className="text-xs text-muted mb-4 print:mb-2 italic print:text-black">Updated May 2026</div>
+      <div className="text-xs text-muted mb-4 print:mb-2 italic print:text-black">Updated August 2026</div>
   <div className="md:hidden mb-4 print:hidden" />
 
       {/* Print styles (scoped) */}
@@ -103,8 +103,8 @@ const Resume: React.FC = () => {
         <section id="print-summary" className="space-y-3 print-condense" aria-labelledby="summary-heading">
           <h3 id="summary-heading" className="text-xl font-semibold border-b border-secondary pb-2">Summary</h3>
           <p className="text-sm leading-relaxed text-muted print:text-black print:leading-snug print:text-[0.63rem] print:[line-height:0.95rem]">
-            <span className="font-medium text-white print:text-black">Full-stack engineer</span>{" "}
-            building <span className="text-text print:text-black">AI-driven interactive systems and scalable cloud services.</span>{" "}
+            <span className="font-medium text-white print:text-black">AI Engineer Consultant</span>{" "}
+            at <span className="text-text print:text-black">Kearney Activate, advising enterprise clients on AI strategy, feasibility, and adoption.</span>{" "}
             Experience developing <span className="font-medium text-white print:text-black">real-time voice AI agents</span>{" "}
             with the Gemini Live API and deploying low-latency platforms on{" "}
             <span className="text-white font-medium print:text-black print:font-bold">Google Cloud Platform.</span>{" "}
@@ -147,6 +147,18 @@ const Resume: React.FC = () => {
           <h3 className="text-xl font-semibold border-b border-secondary pb-2">Experience</h3>
             <div>
               <div className="flex justify-between items-start gap-4 print:gap-2">
+                <h4 className="font-semibold flex-1">Kearney Activate - AI Engineer Consultant</h4>
+                <span className="text-muted whitespace-nowrap text-right print:text-[0.6rem]">05/2026 – Present</span>
+              </div>
+              <p className="text-muted">Dallas, TX.</p>
+              <ul className="list-disc list-inside mt-2 text-sm space-y-1">
+                <li>Advise enterprise clients on AI strategy, use-case selection, and adoption as part of Kearney's Activate practice.</li>
+                <li>Translate business problems into AI solution designs, guiding feasibility assessments and prioritization with stakeholders.</li>
+                <li className="italic text-muted">Tech: Python, Google Cloud Platform (GCP).</li>
+              </ul>
+            </div>
+            <div>
+              <div className="flex justify-between items-start gap-4 print:gap-2">
                 <h4 className="font-semibold flex-1">MyWayv - Full-Stack Developer</h4>
                 <span className="text-muted whitespace-nowrap text-right print:text-[0.6rem]">05/2025 – 04/2026</span>
               </div>
@@ -159,20 +171,6 @@ const Resume: React.FC = () => {
                 <li className="italic text-muted">Tech: JavaScript, Vite, Gemini Live API, Google Cloud Platform.</li>
               </ul>
             </div>
-            <div>
-              <div className="flex justify-between items-start gap-4 print:gap-2">
-                <h4 className="font-semibold flex-1">MineTest Project - Undergraduate Research / Senior Project</h4>
-                <span className="text-muted whitespace-nowrap text-right print:text-[0.6rem]">01/2023 – 05/2024</span>
-              </div>
-              <p className="text-muted">University of Florida - Gainesville, FL.</p>
-              <ul className="list-disc list-inside mt-2 text-sm space-y-1">
-                <li>Progressed from junior contributor to team lead over 3 semesters driving Lua → C++ engine migration.</li>
-                <li>Coordinated sprint-style meetings to surface blockers and maintain delivery momentum.</li>
-                <li>Owned repository governance: code review standards, merge strategy, and branch hygiene.</li>
-                <li>Directed senior project planning and task allocation to align technical scope with academic milestones.</li>
-                <li className="italic text-muted">Tech: C++, Lua, Git, Engine Tooling.</li>
-              </ul>
-          </div>
         </section>
 
         <section id="print-education" className="space-y-4 print-condense" aria-labelledby="education-heading">

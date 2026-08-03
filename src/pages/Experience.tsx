@@ -12,6 +12,18 @@ const Experience: React.FC = () => {
     description: string[];
   }> = [
     {
+      title: 'AI Engineer Consultant',
+      organization: 'Kearney Activate – Dallas, TX',
+      period: '05/2026 – Present',
+      logo: '/assets/experience/kearney.png',
+      logoFallback: 'K',
+      description: [
+        'Advise enterprise clients on AI strategy, use-case selection, and adoption as part of Kearney\'s Activate practice.',
+        'Translate business problems into AI solution designs, guiding feasibility assessments and prioritization with stakeholders.',
+        'Tech: Python, Google Cloud Platform (GCP).'
+      ]
+    },
+    {
       title: 'Full-Stack Developer',
       organization: 'MyWayv – Boca Raton, FL',
       period: '05/2025 – 04/2026',

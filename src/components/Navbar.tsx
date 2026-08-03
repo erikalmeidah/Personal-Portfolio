@@ -86,7 +86,7 @@ const Navbar: React.FC<NavbarProps> = ({ isMobile, closeMenu, collapsed = false 
         ) : brandMounted ? (
           <div className={`flex flex-col transition-all duration-300 ease-out transform-gpu origin-left ${brandVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-3'}`}>
             <h1 className="text-2xl font-bold leading-tight">Erik Companhone</h1>
-            <p className="text-muted text-sm">Software Developer</p>
+            <p className="text-muted text-sm">AI Engineer</p>
           </div>
         ) : null}
       </div>

@@ -11,7 +11,7 @@ const Home: React.FC = () => {
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
             Hi, I'm <span className="text-accent">Erik Companhone</span>
           </h1>
-          <h2 className="text-xl md:text-2xl text-muted mb-6">Software Developer</h2>
+          <h2 className="text-xl md:text-2xl text-muted mb-6">AI Engineer</h2>
           <p className="text-lg mb-8 md:mb-8">
             I build exceptional and accessible digital experiences for the web.
             Focused on creating clean, user-friendly interfaces with modern
@@ -69,7 +69,7 @@ const Home: React.FC = () => {
         <div className="space-y-4">
           <p className="text-xl font-semibold">Erik Companhone</p>
           <p>
-            I'm a <span className="font-semibold">software developer</span> currently open to new opportunities. Most recently, I worked as a <span className="font-semibold">full-stack developer</span> at <span className="font-semibold">MyWayv</span>, where I contributed to exciting projects and continuously learned from a talented team. If you have any openings or are interested in collaborating, feel free to reach out, I'd love to connect!
+            I'm an <span className="font-semibold">AI Engineer Consultant</span> at <span className="font-semibold">Kearney Activate</span>, where I help enterprise clients turn business problems into practical <span className="font-semibold">AI solutions</span>.
           </p>
           <p>
             I graduated from the <span className="font-semibold">University of Florida</span> in Spring 2024 with a degree in <span className="font-semibold">Computer Science</span>, maintaining a <span className="font-semibold">3.58 GPA</span>. As a <span className="font-semibold">first-generation student</span>, completing my education was a huge milestone that fueled my drive to make an impact in tech.
