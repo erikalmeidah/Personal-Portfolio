@@ -28,6 +28,21 @@ const Education: React.FC = () => {
 
   const certifications = [
     {
+      title: 'The Software Designer Mindset',
+      organization: 'ArjanCodes',
+      period: 'Completed September 2026',
+      description: [
+        'Apply core design principles: favor composition over inheritance, high cohesion, low coupling, depend on abstractions, separate creation from use, and keep things simple.',
+        'Build clear abstractions in Python with type hints, dataclasses, abstract base classes, protocols, and mixins.',
+        'Model a business domain and structure an application as a layered architecture with API, data, and abstract data-interface layers backed by unit tests.',
+        'Refactor toward cleaner code: avoid flags and deep nesting, keep classes small, use meaningful names, and apply tell-don\'t-ask and function composition.'
+      ],
+      context: 'Self-paced course by Arjan Egges covering software design fundamentals, domain modeling, and pragmatic code review practices, with all examples in Python and principles that transfer to any language.',
+      image: '/assets/education/certs_and_badges/arjan.png',
+      verifyUrl: 'https://app.kajabi.com/certificates/a61372d4',
+      verifyLabel: 'View Certificate'
+    },
+    {
       title: 'Engineer Data for Predictive Modeling with BigQuery ML',
       organization: 'Google Cloud Skill Badge',
       period: 'Earned July 2026',
@@ -106,6 +121,7 @@ const Education: React.FC = () => {
               context={item.context}
               image={item.image}
               verifyUrl={item.verifyUrl}
+              verifyLabel={item.verifyLabel}
             />
           ))}
         </div>

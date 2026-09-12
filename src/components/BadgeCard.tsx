@@ -8,9 +8,10 @@ interface BadgeCardProps {
   context?: string;
   image?: string;
   verifyUrl?: string;
+  verifyLabel?: string;
 }
 
-const BadgeCard: React.FC<BadgeCardProps> = ({ title, organization, period, description, context, image, verifyUrl }) => {
+const BadgeCard: React.FC<BadgeCardProps> = ({ title, organization, period, description, context, image, verifyUrl, verifyLabel = 'Verify on Credly' }) => {
   return (
     <div className="bg-primary p-6 rounded-lg shadow-md border-l-4 border-accent">
       <div className="flex flex-col md:flex-row md:items-start gap-8">
@@ -46,7 +47,7 @@ const BadgeCard: React.FC<BadgeCardProps> = ({ title, organization, period, desc
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-4 py-2 bg-transparent border border-accent text-accent rounded-md hover:bg-accent hover:bg-opacity-10 transition-colors"
               >
-                Verify on Credly
+                {verifyLabel}
               </a>
             )}
           </div>
