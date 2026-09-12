@@ -68,6 +68,21 @@ const Education: React.FC = () => {
       context: 'Final badge of the Agentic AI on Google Cloud learning path, which guides learners through building and deploying intelligent multi-agent systems using Google Cloud technologies, covering Gemini Enterprise, ADK, enterprise database integration, and secure agent architectures.',
       image: '/assets/education/certs_and_badges/deploy_multi_agent_architectures.png',
       verifyUrl: 'https://www.credly.com/badges/99a5f974-5f27-4092-90d5-bb761d03c745'
+    },
+    {
+      title: 'The Software Designer Mindset',
+      organization: 'ArjanCodes',
+      period: 'Completed September 2026',
+      description: [
+        'Apply core design principles: favor composition over inheritance, high cohesion, low coupling, depend on abstractions, separate creation from use, and keep things simple.',
+        'Build clear abstractions in Python with type hints, dataclasses, abstract base classes, protocols, and mixins.',
+        'Model a business domain and structure an application as a layered architecture with API, data, and abstract data-interface layers backed by unit tests.',
+        'Refactor toward cleaner code: avoid flags and deep nesting, keep classes small, use meaningful names, and apply tell-don\'t-ask and function composition.'
+      ],
+      context: 'Self-paced course by Arjan Egges covering software design fundamentals, domain modeling, and pragmatic code review practices, with all examples in Python and principles that transfer to any language.',
+      image: '/assets/education/certs_and_badges/arjan.png',
+      verifyUrl: 'https://app.kajabi.com/certificates/a61372d4',
+      verifyLabel: 'View Certificate'
     }
   ];
 
@@ -106,6 +121,7 @@ const Education: React.FC = () => {
               context={item.context}
               image={item.image}
               verifyUrl={item.verifyUrl}
+              verifyLabel={item.verifyLabel}
             />
           ))}
         </div>
